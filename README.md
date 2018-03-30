@@ -4,7 +4,7 @@
 
 강의 링크 : [모두를 위한 머신러닝 / 딥러닝 - 김성훈](https://hunkim.github.io/ml/)
 
-강의 내용에 대한 정리는 [Summaries](https://github.com/MoDeep/1st-Grade-Study/Summaries) 폴더를 이용해 주시고, 그 외에 개인적으로 공부하거나 정리한 부분들은 각자 Root에 따로 폴더를 만들어서 정리하셔도 됩니다.
+강의 내용에 대한 정리는 [Summaries](https://github.com/MoDeep/1st-Grade-Study/tree/master/Summaries) 폴더를 이용해 주시고, 그 외에 개인적으로 공부하거나 정리한 부분들은 각자 Root에 따로 폴더를 만들어서 정리하셔도 됩니다.
 
 Markdown 사용법에 대한 자료는 아래에 올려두겠습니다.
 
