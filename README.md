@@ -8,9 +8,10 @@
 
 Markdown 사용법에 대한 자료는 아래에 올려두겠습니다.
 
-[1. Markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
-[2. 마크다운 문법 작성 팁](http://hashcode.co.kr/questions/1772/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EB%AC%B8%EB%B2%95-%EC%9E%91%EC%84%B1-%ED%8C%81)
+1. [Markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+2. [마크다운 문법 작성 팁](http://hashcode.co.kr/questions/1772/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EB%AC%B8%EB%B2%95-%EC%9E%91%EC%84%B1-%ED%8C%81)
 
 아래는 GitHub의 사용법에 대한 참고 자료들입니다.
-[1. git 간편 안내서](https://rogerdudler.github.io/git-guide/index.ko.html)
-[2. 완전 초보를 위한 깃허브](https://nolboo.kim/blog/2013/10/06/github-for-beginner/)
+
+1. [git 간편 안내서](https://rogerdudler.github.io/git-guide/index.ko.html)
+2. [완전 초보를 위한 깃허브](https://nolboo.kim/blog/2013/10/06/github-for-beginner/)
