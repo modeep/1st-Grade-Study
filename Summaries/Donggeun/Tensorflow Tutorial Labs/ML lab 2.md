@@ -4,9 +4,6 @@
 
 ## 1. Linear Regression
 
-<br/>
-<br/>
-
 ### [Training]
 
 데이터를 가지고 학습을 하는 것을 'Training'이라고 하며 데이터를 'Training Data' 라고 한다.
