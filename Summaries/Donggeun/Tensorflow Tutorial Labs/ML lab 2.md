@@ -105,16 +105,20 @@ W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 
 > > > ~~~
 > > >
 > > > Hypothesis는 cost(W, b) 값을 얻기 위해 사용된다.
+
 <br/>
 <br/>
+
 > ![](C:\Users\jkl81\Desktop\사진7.PNG)	
 >
 > > ~~~python
 > > # cost/Loss function
 > > cost = tf.reduce_mean(tf.square(hypothesis - y_train))
 > > ~~~
+
 <br/>
 <br/>
+
 > ~~~
 > GradientDescent
 > ~~~
@@ -126,8 +130,10 @@ W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 
 > > ~~~
 > >
 > > > cost를 가장 작은 값을 구해야 하기 때문에 GradientDescent를 사용한다.
+
 <br/>
 <br/>
+
 > ~~~
 > Run/update graph and get results
 > ~~~
@@ -143,8 +149,10 @@ W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 
 > > ~~~
 > >
 > > > 실행하기 위해서 Session을 만들고 for문을 사용해서 2000번을 반복한다. 그리고 중간에 진행도를 알기 위해서 if문으로 20번 마다 cost, W, b를 출력하게 만들었다.
+
 <br/>
 <br/>
+
 > ~~~
 > Placeholders Full source
 > ~~~
@@ -186,6 +194,7 @@ W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 
 > > > 으로 바꿔 사용할 수 있다.
 > > >
 > > > Placeholder를 사용하면 train을 실행 시킬 때 x, y를 넘겨 줄 수 있다.
+
 <br/>
 <br/>
 
