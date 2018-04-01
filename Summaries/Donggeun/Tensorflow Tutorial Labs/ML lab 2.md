@@ -48,16 +48,22 @@ H(x) - y
 ~~~
 
  (H(x) - y)<sup>2</sup>를 사용한다.
+ 
 <br/>
 <br/>
+
+
 ### [GOAL]
 
 Cost(W, b), 가장 작은 W, b를 구하자!
 <br/>
 <br/>
+
 ## 3. Hypothesis and Cost
+
 <br/>
 <br/>
+
 ### [IMPORT]
 
 ![](C:\Users\jkl81\Desktop\사진6.PNG)
@@ -69,6 +75,7 @@ H(x) = Wx + b
 W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 아닌 텐서플로우에서는 Variable이라는 Node로 정의 할 수 있다.
 <br/>
 <br/>
+
 ### [SOURCE CODE]
 
 > ~~~
@@ -181,6 +188,7 @@ W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 
 > > > Placeholder를 사용하면 train을 실행 시킬 때 x, y를 넘겨 줄 수 있다.
 <br/>
 <br/>
+
 ## [출처]
 
 1. 모두를 위한 머신러닝/딥러닝 강의 https://hunkim.github.io/ml/
