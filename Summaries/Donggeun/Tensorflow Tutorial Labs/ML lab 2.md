@@ -34,6 +34,7 @@ H(x) = Wx + b
 ~~~
 <br/>
 <br/>
+
 ### [GETTIING DISTANCE]
 
 ~~~
