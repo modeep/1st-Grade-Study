@@ -1,31 +1,23 @@
 # ML lec 02 - Linear Regression의 Hypothesis 와 cost 설명
-
-
-
-
-
+<br/>
+<br/>
 ## 1. Linear Regression
-
+<br/>
+<br/>
 ### [Training]
 
 데이터를 가지고 학습을 하는 것을 'Training'이라고 하며 데이터를 'Training Data' 라고 한다.
 
 ![](C:\Users\jkl81\Desktop\사진1.PNG)
-
-
-
-
-
+<br/>
+<br/>
 ### [Linear and Regression]
 
  Regression을 학습을 할 때 가설을 세울 필요가 있으며 가설을 세우는 것이 Linear Regression이다. Linear하게 가설을 세운다는 것은 데이터가 있다면 데이터에 알맞은 Linear한 선을 찾는 것이다. 그리고 이 선을 찾는 과정이 학습을 하는 것이다.
 
 ![](C:\Users\jkl81\Desktop\사진3.PNG)
-
-
-
-
-
+<br/>
+<br/>
 ## 2. Cost Function
 
 ### [Cost Function Concepts]
@@ -33,21 +25,15 @@
 여러가지의 선이 만들어지면 어떤 선이 데이터에 적합한지를 찾아야 한다. 데이터와 가설로 만들어진 선의 거리를 측정하여 실제 데이터 값과 어느정도 차이가 있는지를 구하는 과정을 Cost Function이라고 한다.
 
 ![](C:\Users\jkl81\Desktop\사진5.PNG)
-
-
-
-
-
+<br/>
+<br/>
 ### [IMPORTANT]
 
 ~~~
 H(x) = Wx + b
 ~~~
-
-
-
-
-
+<br/>
+<br/>
 ### [GETTIING DISTANCE]
 
 ~~~
@@ -61,21 +47,16 @@ H(x) - y
 ~~~
 
  (H(x) - y)<sup>2</sup>를 사용한다.
-
-
-
-
-
+<br/>
+<br/>
 ### [GOAL]
 
 Cost(W, b), 가장 작은 W, b를 구하자!
-
-
-
-
-
+<br/>
+<br/>
 ## 3. Hypothesis and Cost
-
+<br/>
+<br/>
 ### [IMPORT]
 
 ![](C:\Users\jkl81\Desktop\사진6.PNG)
@@ -85,11 +66,8 @@ H(x) = Wx + b
 ~~~
 
 W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 아닌 텐서플로우에서는 Variable이라는 Node로 정의 할 수 있다.
-
-
-
-
-
+<br/>
+<br/>
 ### [SOURCE CODE]
 
 > ~~~
@@ -119,22 +97,16 @@ W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 
 > > > ~~~
 > > >
 > > > Hypothesis는 cost(W, b) 값을 얻기 위해 사용된다.
-
-
-
-
-
+<br/>
+<br/>
 > ![](C:\Users\jkl81\Desktop\사진7.PNG)	
 >
 > > ~~~python
 > > # cost/Loss function
 > > cost = tf.reduce_mean(tf.square(hypothesis - y_train))
 > > ~~~
-
-
-
-
-
+<br/>
+<br/>
 > ~~~
 > GradientDescent
 > ~~~
@@ -146,11 +118,8 @@ W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 
 > > ~~~
 > >
 > > > cost를 가장 작은 값을 구해야 하기 때문에 GradientDescent를 사용한다.
-
-
-
-
-
+<br/>
+<br/>
 > ~~~
 > Run/update graph and get results
 > ~~~
@@ -166,11 +135,8 @@ W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 
 > > ~~~
 > >
 > > > 실행하기 위해서 Session을 만들고 for문을 사용해서 2000번을 반복한다. 그리고 중간에 진행도를 알기 위해서 if문으로 20번 마다 cost, W, b를 출력하게 만들었다.
-
-
-
-
-
+<br/>
+<br/>
 > ~~~
 > Placeholders Full source
 > ~~~
