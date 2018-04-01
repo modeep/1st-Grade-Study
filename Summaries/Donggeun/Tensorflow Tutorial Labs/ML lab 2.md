@@ -61,8 +61,6 @@ Cost(W, b), 가장 작은 W, b를 구하자!
 
 ## 3. Hypothesis and Cost
 
-<br/>
-<br/>
 
 ### [IMPORT]
 
