@@ -1,12 +1,12 @@
-#ML lec 02 - Linear Regression의 Hypothesis 와 cost 설명
+# ML lec 02 - Linear Regression의 Hypothesis 와 cost 설명
 
 
 
 
 
-##1. Linear Regression
+## 1. Linear Regression
 
-###[Training]
+### [Training]
 
 데이터를 가지고 학습을 하는 것을 'Training'이라고 하며 데이터를 'Training Data' 라고 한다.
 
@@ -14,7 +14,9 @@
 
 
 
-###[Linear and Regression]
+
+
+### [Linear and Regression]
 
  Regression을 학습을 할 때 가설을 세울 필요가 있으며 가설을 세우는 것이 Linear Regression이다. Linear하게 가설을 세운다는 것은 데이터가 있다면 데이터에 알맞은 Linear한 선을 찾는 것이다. 그리고 이 선을 찾는 과정이 학습을 하는 것이다.
 
@@ -24,9 +26,9 @@
 
 
 
-##2. Cost Function
+## 2. Cost Function
 
-###[Cost Function Concepts]
+### [Cost Function Concepts]
 
 여러가지의 선이 만들어지면 어떤 선이 데이터에 적합한지를 찾아야 한다. 데이터와 가설로 만들어진 선의 거리를 측정하여 실제 데이터 값과 어느정도 차이가 있는지를 구하는 과정을 Cost Function이라고 한다.
 
@@ -34,7 +36,9 @@
 
 
 
-###[IMPORTANT]
+
+
+### [IMPORTANT]
 
 ~~~
 H(x) = Wx + b
@@ -42,7 +46,9 @@ H(x) = Wx + b
 
 
 
-###[GETTIING DISTANCE]
+
+
+### [GETTIING DISTANCE]
 
 ~~~
 H(x) - y
@@ -58,7 +64,9 @@ H(x) - y
 
 
 
-###[GOAL]
+
+
+### [GOAL]
 
 Cost(W, b), 가장 작은 W, b를 구하자!
 
@@ -68,7 +76,7 @@ Cost(W, b), 가장 작은 W, b를 구하자!
 
 ## 3. Hypothesis and Cost
 
-###[IMPORT]
+### [IMPORT]
 
 ![](C:\Users\jkl81\Desktop\사진6.PNG)
 
@@ -77,6 +85,8 @@ H(x) = Wx + b
 ~~~
 
 W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 아닌 텐서플로우에서는 Variable이라는 Node로 정의 할 수 있다.
+
+
 
 
 
@@ -207,6 +217,6 @@ W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 
 
 
 
-##[출처]
+## [출처]
 
 1. 모두를 위한 머신러닝/딥러닝 강의 https://hunkim.github.io/ml/
