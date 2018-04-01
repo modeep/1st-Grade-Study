@@ -1,7 +1,4 @@
 # ML lec 02 - Linear Regression의 Hypothesis 와 cost 설명
-<br/>
-<br/>
-
 ## 1. Linear Regression
 
 ### [Training]
