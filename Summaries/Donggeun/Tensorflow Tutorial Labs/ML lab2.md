@@ -5,7 +5,7 @@
 
 데이터를 가지고 학습을 하는 것을 'Training'이라고 하며 데이터를 'Training Data' 라고 한다.
 
-![](C:\Users\jkl81\Desktop\사진1.PNG)
+![](./ML lab2 Image/Image1.jpg)
 <br/>
 <br/>
 ### [Linear and Regression]
