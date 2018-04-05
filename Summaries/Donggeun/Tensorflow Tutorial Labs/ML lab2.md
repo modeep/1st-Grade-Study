@@ -5,7 +5,7 @@
 
 데이터를 가지고 학습을 하는 것을 'Training'이라고 하며 데이터를 'Training Data' 라고 한다.
 
-![](./ML\ lab2\ Image/Image1.jpg)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab2%20Image/Image1.jpg?raw=true)
 <br/>
 <br/>
 ### [Linear and Regression]
