@@ -12,7 +12,7 @@
 
  Regression을 학습을 할 때 가설을 세울 필요가 있으며 가설을 세우는 것이 Linear Regression이다. Linear하게 가설을 세운다는 것은 데이터가 있다면 데이터에 알맞은 Linear한 선을 찾는 것이다. 그리고 이 선을 찾는 과정이 학습을 하는 것이다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab2%20Image/Image2.jpg?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab2%20Image/Image3.jpg?raw=true)
 <br/>
 <br/>
 ## 2. Cost Function
