@@ -12,7 +12,7 @@
 
  Regression을 학습을 할 때 가설을 세울 필요가 있으며 가설을 세우는 것이 Linear Regression이다. Linear하게 가설을 세운다는 것은 데이터가 있다면 데이터에 알맞은 Linear한 선을 찾는 것이다. 그리고 이 선을 찾는 과정이 학습을 하는 것이다.
 
-![](C:\Users\jkl81\Desktop\사진3.PNG)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab2%20Image/Image3.jpg?raw=true)
 <br/>
 <br/>
 ## 2. Cost Function
@@ -21,7 +21,7 @@
 
 여러가지의 선이 만들어지면 어떤 선이 데이터에 적합한지를 찾아야 한다. 데이터와 가설로 만들어진 선의 거리를 측정하여 실제 데이터 값과 어느정도 차이가 있는지를 구하는 과정을 Cost Function이라고 한다.
 
-![](C:\Users\jkl81\Desktop\사진5.PNG)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab2%20Image/Image5.jpg?raw=true)
 <br/>
 <br/>
 ### [IMPORTANT]
@@ -61,7 +61,7 @@ Cost(W, b), 가장 작은 W, b를 구하자!
 
 ### [IMPORT]
 
-![](C:\Users\jkl81\Desktop\사진6.PNG)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab2%20Image/Image4.jpg?raw=true)
 
 ~~~H(x) = Wx + b
 H(x) = Wx + b
@@ -104,7 +104,7 @@ W와 b를 정의 하는데 다른 프로그램과 같이 변수라는 개념이 
 <br/>
 <br/>
 
-> ![](C:\Users\jkl81\Desktop\사진7.PNG)	
+> ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab2%20Image/Image7.jpg?raw=true)	
 >
 > > ~~~python
 > > # cost/Loss function
