@@ -24,7 +24,8 @@
 
 ### [What cost(W) looks like?]
 
-![img](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image3.PNG?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image3.PNG?raw=true)
+$ 11 $
 
 <br/>
 
