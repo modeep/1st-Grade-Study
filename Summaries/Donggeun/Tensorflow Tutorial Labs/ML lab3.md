@@ -19,6 +19,7 @@
 
 <br/>
 <br/>
+
 ## 2. Cost Function
 
 ### [What cost(W) looks like?]
