@@ -38,13 +38,9 @@
 
 <br/>
 
-> $$
-> W=0,cost(w)=4.76
-> $$
+> ![] (https://latex.codecogs.com/gif.latex?W%3D0%2Ccost%28w%29%3D4.76)
 >
-> $$
-> {3 \over 1}((0 * 1-1)^2 + (0 * 2-2)^2 +  (0 * 3-3)^2)
-> $$
+> ![] (https://latex.codecogs.com/gif.latex?%7B3%20%5Cover%201%7D%28%280%20*%201-1%29%5E2%20&plus;%20%280%20*%202-2%29%5E2%20&plus;%20%280%20*%203-3%29%5E2%29)
 >
 > 
 
@@ -96,9 +92,7 @@ cost(W) Function을 미분한 것을 곱해준다.
 
 ### [IMPORT]
 
-$$
-W := W -\alpha {1 \over m}\sum_{i=1}^m(Wx^{(i)} - y^{(i)})x^{(i)}
-$$
+![] (https://latex.codecogs.com/gif.latex?W%20%3A%3D%20W%20-%5Calpha%20%7B1%20%5Cover%20m%7D%5Csum_%7Bi%3D1%7D%5Em%28Wx%5E%7B%28i%29%7D%20-%20y%5E%7B%28i%29%7D%29x%5E%7B%28i%29%7D)
 
 <br/>
 
@@ -172,9 +166,7 @@ matplotlib 설치 : http://matplotlib.org/users/installing.html
 > > cost = tf.reduce_mean(tf.square(hypothesis - y))
 > > ~~~
 > >
-> > $$
-> > cost(W)={1 \over m}\sum_{i=1}^m(Wx^{(i)}-y^{(i)})^2
-> > $$
+> > ![] (https://latex.codecogs.com/gif.latex?cost%28W%29%3D%7B1%20%5Cover%20m%7D%5Csum_%7Bi%3D1%7D%5Em%28Wx%5E%7B%28i%29%7D-y%5E%7B%28i%29%7D%29%5E2)
 > >
 >
 > > ~~~python
@@ -199,13 +191,11 @@ matplotlib 설치 : http://matplotlib.org/users/installing.html
 ### [Gradient descent algorithum]
 
  
-$$
-cost(W)={1 \over m}\sum_{i=1}^m(Wx^{(i)} - y^{(i)})^2
-$$
+
+![] (https://latex.codecogs.com/gif.latex?cost%28W%29%3D%7B1%20%5Cover%20m%7D%5Csum_%7Bi%3D1%7D%5Em%28Wx%5E%7B%28i%29%7D%20-%20y%5E%7B%28i%29%7D%29%5E2)
+
 W - cost Function의 기울기를 빼주면 된다.
-$$
-W := W -\alpha {1 \over m}\sum_{i=1}^m(Wx^{(i)} - y^{(i)})x^{(i)}
-$$
+![] (https://latex.codecogs.com/gif.latex?W%20%3A%3D%20W%20-%5Calpha%20%7B1%20%5Cover%20m%7D%5Csum_%7Bi%3D1%7D%5Em%28Wx%5E%7B%28i%29%7D%20-%20y%5E%7B%28i%29%7D%29x%5E%7B%28i%29%7D)
 
 ~~~python
 learning_rate = 0.1
@@ -263,9 +253,7 @@ update = W.assign(descent)
 > > update = w.assign(descent)
 > > ~~~
 > >
-> > $$
-> > W := W -\alpha {1 \over m}\sum_{i=1}^m(Wx^{(i)} - y^{(i)})x^{(i)}
-> > $$
+> > ![] (https://latex.codecogs.com/gif.latex?W%20%3A%3D%20W%20-%5Calpha%20%7B1%20%5Cover%20m%7D%5Csum_%7Bi%3D1%7D%5Em%28Wx%5E%7B%28i%29%7D%20-%20y%5E%7B%28i%29%7D%29x%5E%7B%28i%29%7D)
 > >
 >
 > > 실행 결과.
