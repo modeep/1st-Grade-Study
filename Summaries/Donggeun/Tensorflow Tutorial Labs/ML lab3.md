@@ -25,12 +25,11 @@
 ### [What cost(W) looks like?]
 
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image3.PNG?raw=true)
-$ 11 $
 
 <br/>
 
 > $$
-> W=1, cost(w)=0
+> $$W=1, cost(w)=0$$
 > $$
 >
 > 
