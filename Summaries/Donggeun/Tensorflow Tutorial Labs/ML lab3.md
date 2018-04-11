@@ -38,9 +38,9 @@
 
 <br/>
 
-> ![] (https://latex.codecogs.com/gif.latex?W%3D0%2Ccost%28w%29%3D4.76)
+> ![](https://latex.codecogs.com/gif.latex?W%3D0%2Ccost%28w%29%3D4.76)
 >
-> ![] (https://latex.codecogs.com/gif.latex?%7B3%20%5Cover%201%7D%28%280%20*%201-1%29%5E2%20&plus;%20%280%20*%202-2%29%5E2%20&plus;%20%280%20*%203-3%29%5E2%29)
+> ![](https://latex.codecogs.com/gif.latex?%7B3%20%5Cover%201%7D%28%280%20*%201-1%29%5E2%20&plus;%20%280%20*%202-2%29%5E2%20&plus;%20%280%20*%203-3%29%5E2%29)
 >
 > 
 
