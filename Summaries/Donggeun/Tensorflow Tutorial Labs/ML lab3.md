@@ -193,6 +193,7 @@ matplotlib 설치 : http://matplotlib.org/users/installing.html
 ![](https://latex.codecogs.com/gif.latex?cost%28W%29%3D%7B1%20%5Cover%20m%7D%5Csum_%7Bi%3D1%7D%5Em%28Wx%5E%7B%28i%29%7D%20-%20y%5E%7B%28i%29%7D%29%5E2)
 
 W - cost Function의 기울기를 빼주면 된다.
+
 ![](https://latex.codecogs.com/gif.latex?W%20%3A%3D%20W%20-%5Calpha%20%7B1%20%5Cover%20m%7D%5Csum_%7Bi%3D1%7D%5Em%28Wx%5E%7B%28i%29%7D%20-%20y%5E%7B%28i%29%7D%29x%5E%7B%28i%29%7D)
 
 ~~~python
@@ -251,7 +252,7 @@ update = W.assign(descent)
 > > update = w.assign(descent)
 > > ~~~
 > >
-> > ![] (https://latex.codecogs.com/gif.latex?W%20%3A%3D%20W%20-%5Calpha%20%7B1%20%5Cover%20m%7D%5Csum_%7Bi%3D1%7D%5Em%28Wx%5E%7B%28i%29%7D%20-%20y%5E%7B%28i%29%7D%29x%5E%7B%28i%29%7D)
+> > ![](https://latex.codecogs.com/gif.latex?W%20%3A%3D%20W%20-%5Calpha%20%7B1%20%5Cover%20m%7D%5Csum_%7Bi%3D1%7D%5Em%28Wx%5E%7B%28i%29%7D%20-%20y%5E%7B%28i%29%7D%29x%5E%7B%28i%29%7D)
 > >
 >
 > > 실행 결과.
