@@ -157,9 +157,7 @@ matplotlib 설치 : http://matplotlib.org/users/installing.html
 > > hypothesis = x * w
 > > ~~~
 > >
-> > $$
-> > H(x)=Wx
-> > $$
+> > ![](https://latex.codecogs.com/gif.latex?H%28x%29%3DWx)
 > >
 >
 > > ~~~python
