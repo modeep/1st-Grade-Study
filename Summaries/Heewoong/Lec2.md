@@ -18,7 +18,7 @@ H(x)  - y 를 이용한다.
 
 (H(x) - y)^2 를 이용한다.
 
- ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec2.jpg?raw=true)
+ ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec2%20-%201.jpg)
 
 다음과 같다.
 
