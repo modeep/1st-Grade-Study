@@ -6,7 +6,7 @@
 
 가설의 값에서 실제 값 차이를 제곱하여 총 더하고 평균을 구하는 것이 Cost Function이다.  여기서 Cost를 최소화하는 W와 b를 구하는 것이 Linear Regression이다.
 
-![]()
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image1.PNG?raw=true)
 
 <br/>
 <br/>
