@@ -1,4 +1,4 @@
-# Lec1
+# 2018/04/11 정리 : Lec1
 ## 머신러닝의 용어와 개념 설명
 ### 머신러닝
 - 프로그램이 데이터를 보고 학습하는 프로그램  
@@ -20,30 +20,27 @@ ex)알파고
 
 
 - 결과(y)에 따른 종류   
---regression : 시험예측(범위 내에서 결과 예측)   
---binary classification : 성공여부(분류 0/1)   
---multi-label classification : 성적 등급(분류 범위 넓음)
+--regression : 시험예측(회귀분석)   
+--binary classification : 성공여부(이진 분류 기법)   
+--multi-label classification : 성적 등급(다중 분류 기법)
 
 data set example
 
-binary classification  
-x | y
-:--:|:--:
-10 | P
-5 | F
-
-
 regression  
-x | y
-:--:|:--:
-10 | 100
-7 | 80
+x  y  
+10 100  
+7  80
+
+binary classification  
+x  y  
+9  P  
+5  F
 
 multi-label classification  
-x | y
-:--:|:--:
-10 | A
-7 | B
+x  y  
+10  A  
+7  B  
+5 C
 
 
 **Unsupervised**
