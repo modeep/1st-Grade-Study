@@ -49,7 +49,7 @@
 
 우리가 가지고 있는 데이터로 그래프를 그리면 밑과 같은 형태로 만들어진다. 우리의 목적은 cost가 최소화되는 점을 찾는 것이다. 이 점을 기계적으로 찾아 내는 것이 Gradient descent algorithm이다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image4.PNG?raw=true)
+![] (https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image4.PNG?raw=true)
 
 <br/>
 
@@ -63,20 +63,20 @@ Gradient descent algorithem :경사를 따라 내려가는 알고리즘
 
 수 많은 Cost Function 값 중 가장 Minimize한 Cost를 찾는 과정이다. 랜덤 값 부터 점점 경사도를 내리면서 경사도가 0이 되면 그 값이 제일 Minimize한 값이 된다. 장점은 항상 최저점에 도달 할 수 있다는 것이다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image5.PNG?raw=true)
+![] (https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image5.PNG?raw=true)
 
 <br/>
 <br/>
 
 미분을 적용할 때 좀더 쉽게 하기 위해서  m -> 2m으로 2를 붙인다. 똑같은 의미를 지니기 때문에 문제는 없다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image6.PNG?raw=true)
+![] (https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image6.PNG?raw=true)
 
 <br/>
 
 cost(W) Function을 미분한 것을 곱해준다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image7.PNG?raw=true)
+![] (https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image7.PNG?raw=true)
 
 <br/>
 
@@ -84,7 +84,7 @@ cost(W) Function을 미분한 것을 곱해준다.
 
 여러번 반복하면 W값이 변하게 되는데 그 값이 cost를 Minimize하는 과정이 만들어지게 된다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image8.PNG?raw=true)
+![] (https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image8.PNG?raw=true)
 
 <br/>
 
@@ -102,7 +102,7 @@ cost(W) Function을 미분한 것을 곱해준다.
 
 Cost Function을 밑 처럼 그려질 수도 있다. 밑 그래프에 2가지의 경로가 예시로 나와 있는데 시작점의 위치에 따라 경사도를 따라 내려오면 도착지점이 다르다는 것을 알 수가 있다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image9.PNG?raw=true)
+![] (https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image9.PNG?raw=true)
 
 
 
@@ -110,7 +110,7 @@ Cost Function을 밑 처럼 그려질 수도 있다. 밑 그래프에 2가지의
 
 이럴 경우를 대비해서 Convex Function을 사용한다. 어느 시작점이든 관계 없이 항상 경사도를 따라 내려와도 도착지점은 같게 된다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image10.PNG?raw=true)
+![] (https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image10.PNG?raw=true)
 
 <br/>
 <br/>
@@ -119,7 +119,7 @@ Cost Function을 밑 처럼 그려질 수도 있다. 밑 그래프에 2가지의
 
 ### [IMPORT]
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image11.PNG?raw=true)
+![] (https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image11.PNG?raw=true)
 
 <br/>
 
@@ -260,7 +260,7 @@ update = W.assign(descent)
 > >
 > > 반복 할 수록 cost 값이 작아지고 w는 1에 가까워 진다.
 > >
-> > ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image13.PNG?raw=true)
+> > ![] (https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image13.PNG?raw=true)
 
 <br/>
 
@@ -303,13 +303,13 @@ Tensorflow에서 Optimizer를 통해 cost를 Minimize 해준다.
 > > w = tf.Variable(5.0)
 > > ~~~
 > >
-> > ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image14.PNG?raw=true)
+> > ![] (https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image14.PNG?raw=true)
 >
 > > ~~~python
 > > w = tf.Variable(-3.0)
 > > ~~~
 > >
-> > ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image15.PNG?raw=true)
+> > ![] (https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image15.PNG?raw=true)
 
 <br/>
 
@@ -357,7 +357,7 @@ Tensorflow에서 Optimizer를 통해 cost를 Minimize 해준다.
 > >
 > > 수식을 사용하여 계산한 값과 자동으로 계산된 gradients의 값이 같은지 비교해보자.
 > >
-> > ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image16.PNG?raw=true)
+> > ![] (https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image16.PNG?raw=true)
 
 <br/>
 
