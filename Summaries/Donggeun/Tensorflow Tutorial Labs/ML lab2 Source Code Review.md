@@ -25,6 +25,9 @@ for step in range(2001):
         print(step, sess.run(cost), sess.run(w), sess.run(b))
 ~~~
 
+<br/>
+<br/>
+
 ~~~
 x_train = [1, 2, 3]
 y_train = [1, 2, 3]
@@ -45,12 +48,11 @@ w = tf.Variable(tf.random_normal([1]), name = 'weight')
 b = tf.Variable(tf.random_normal([1]), name = 'bias')
 ~~~
 
-Tensorflow로 1차원 배열을 선언한다. 값은 랜덤으로 한다. Tensorflow의 변수를 파이썬 변수에 저장
+Tensorflow로 배열 선언한다. 값은 한자리 수 난수를 생성한다. Tensorflow의 변수를 파이썬 변수에 저장
 
 
 
 <br/>
-
 <br/>
 
 
