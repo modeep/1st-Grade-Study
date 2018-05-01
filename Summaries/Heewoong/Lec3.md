@@ -30,8 +30,6 @@ cost(W) Function을 미분값을 곱해준다.
 
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec3-7.PNG?raw=true)
 
-생략 과정.
-
 여러번 반복하면 W값이 변하게 되는데 그 값이 cost를 Minimize하는 과정이 만들어지게 된다.
 
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec3-8.PNG?raw=true)
