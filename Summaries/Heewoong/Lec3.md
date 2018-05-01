@@ -20,8 +20,6 @@ Cost 함수의 모양은 다음과 같다.
 
 이 점을 기계적으로 찾아 내는 것이 Gradient descent algorithm(경사를 따라 내려가는 알고리즘)이다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec3-5.PNG?raw=true)
-
 Cost 함수의 값들에서 최소의 Cost를 찾는 과정이다. 랜덤 값에서 경사도를 내리면서 경사도가 0이 되면 최소값이 된다. 항상 최저점에 도달할 수 있다.
 
 미분을 적용할 때 쉽게 하기 위해서  m에 2를 붙인다. 그러나 똑같은 의미를 지니게 된다.
