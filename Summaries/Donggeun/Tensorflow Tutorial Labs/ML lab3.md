@@ -362,6 +362,26 @@ Tensorflow에서 Optimizer를 통해 cost를 Minimize 해준다.
 
 <br/>
 
+## Learning Rate 설정
+
+### Learning rate를 설정할 때 주의할 점은,
+1) Learning rate가 너무 클 때,
+  최적의 값으로 수렴하지 않고, 발산해버리는 경우가 발생합니다. Overshooting이라고 하죠.
+2) Learning rate가 너무 작을 때,
+  일단 수렴하는 속도가 너무 느리고, local minimum에 빠질 확률이 증가합니다.
+
+출처 : https://m.blog.naver.com/PostView.nhn?blogId=cattree_studio&logNo=220703210504&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F
+
+<br/>
+
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image16.PNG?raw=true)
+
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image17.PNG?raw=true)
+
+<br/>
+
+<br/>
+
 ## [출처]
 
 1. 모두를 위한 머신러닝/딥러닝 강의 https://hunkim.github.io/ml/
