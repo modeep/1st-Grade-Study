@@ -374,7 +374,7 @@ Tensorflow에서 Optimizer를 통해 cost를 Minimize 해준다.
 
 <br/>
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image16.PNG?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image12.PNG?raw=true)
 
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab3%20Image/Image17.PNG?raw=true)
 
