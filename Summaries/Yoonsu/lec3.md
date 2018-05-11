@@ -5,6 +5,8 @@ cost function으로 W와 b의 값을 최소화로 찾는 것이 linear regressio
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Yoonsu/images/lec3_1.PNG?raw=true)
 
 이때 cost의 값은 이차함수의 형태로 나타나게 된다.
+(매번 완벽히 이차함수의 형태로 나타나는 것은 아니다. 
+그렇기에 learning rate를 조절하여 최저점에 도달해야 한다./피드백 후 수정) 
 
 
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Yoonsu/images/lec3_2.PNG?raw=ture)
