@@ -12,13 +12,13 @@ Cost 함수의 모양은 다음과 같다.
 
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec3-3.PNG?raw=true)
 
-데이터로 그래프를 이런 형태로 만들어진다. 
+데이터로 그래프를 만들면 이런 형태로 만들어진다. 
 
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec3-4.PNG?raw=true)
 
-목적은 cost가 가장 작아지는 점을 찾는 것이다.
+찾고자 하는 것은 cost가 가장 작아지는 점을 찾는 것이다.
 
-이 점을 기계적으로 찾아 내는 것이 Gradient descent algorithm(경사를 따라 내려가는 알고리즘)이다.
+그리고 이 점을 기계적으로 찾아 내는 것이 Gradient descent algorithm(경사를 따라 내려가는 알고리즘)이다.
 
 Cost 함수의 값들에서 최소의 Cost를 찾는 과정이다. 랜덤 값에서 경사도를 내리면서 경사도가 0이 되면 최소값이 된다. 항상 최저점에 도달할 수 있다.
 
