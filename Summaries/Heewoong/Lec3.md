@@ -10,6 +10,8 @@
 
 Cost 함수의 모양은 다음과 같다.
 
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec3-3.PNG?raw=true)
+
 데이터로 그래프를 만들면 이런 형태로 만들어진다. 
 
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec3-4.PNG?raw=true)
