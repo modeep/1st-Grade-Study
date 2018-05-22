@@ -3,40 +3,40 @@
 우리는 지금까지 가설을 세우는 Hypothesis,예측한 값과 실제 값을 비교하여 오차를 구하는 Cost Function,Cost 함수의 그래프에서 Cost가 최적화가 되는 값을 찾는 Gradient descent algorithm을 배웠다.
 
 기존의 Variable은 1개였다.
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image1.png?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image1.PNG?raw=true)
 
 하지만 3개인 경우에는 어떻게 해야 할까?
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image2.png?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image2.PNG?raw=true)
 
 ## Matrix
 ### Hypothesis
 변수 3개를 받아와서 변수와 가중치를 각각 곱해준 다음에 더해주면 된다.
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image3.png?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image3.PNG?raw=true)
 
 ### Cost Function
 Cost Function은 그대로 가설에서 실제 값을 빼주고 제곱을 해주면 된다.
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image4.png?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image4.PNG?raw=true)
 
 ### Multi-Variable Occation
 지금까지는 3개였지만 수백, 수천개의 Variable이 있을 경우에는 수식으로 표현하기가 힘들어진다.
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image5.png?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image5.PNG?raw=true)
 
 ### Matrix Multiplication
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image6.png?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image6.PNG?raw=true)
 
 Matrix Multiplication방식을 Hypothesis에 적용시킨 모습이다.
-X와 W의 자리는 상관 없다.
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image7.png?raw=true)
+(X와 W의 자리는 상관 없다.)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image7.PNG?raw=true)
 
 Variable를 가지고 Matrix를 사용해서 가설을 세운다.
 (Instance)
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image8.png?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image8.PNG?raw=true)
 
 Variable의 Instance가 다섯일 경우에는 가설 또한 다섯 Instance를 출력한다. Variable의 개수와 W(Weight)의 Instance 개수가 같다. 가설의 Y(1)와 W(1)이 같다는 것을 알 수 있다. 이러한 관계를 이해 해야지만 Variable이 주어지고 출력 방식이 정해졌을 때 W의 크기를 구할 수가 있다.
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image9.png?raw=true
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image9.PNG?raw=true
 
 ## Question
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image10.png?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image10.PNG?raw=true)
 
 <br/>
 
@@ -224,7 +224,7 @@ File이 엄청 커서 numpy로 한번에 메모리에 올리기 힘들 때 사�
 3. Reader로 읽어온 값을 Decoding 해준다음에 Queue에 쌓는다.
 
 그 후 학습을 할 때 필요한 데이터만 불러와 사용하면 된다. 이 모든 과정을 TensorFlow가 처리한다.
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image10.png?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image11.PNG?raw=true)
 
 ## Tensorflow Source Code
 Frist
