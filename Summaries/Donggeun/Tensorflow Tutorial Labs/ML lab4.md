@@ -33,7 +33,7 @@ Variable를 가지고 Matrix를 사용해서 가설을 세운다.
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image8.PNG?raw=true)
 
 Variable의 Instance가 다섯일 경우에는 가설 또한 다섯 Instance를 출력한다. Variable의 개수와 W(Weight)의 Instance 개수가 같다. 가설의 Y(1)와 W(1)이 같다는 것을 알 수 있다. 이러한 관계를 이해 해야지만 Variable이 주어지고 출력 방식이 정해졌을 때 W의 크기를 구할 수가 있다.
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image9.PNG?raw=true
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image9.PNG?raw=true)
 
 ## Question
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab4%20Image/Image10.PNG?raw=true)
