@@ -120,7 +120,7 @@ Matrix를 사용하면서 전체적인 소스코드의 길이가 줄어들었고
 ## Summary
 x_data를 기존에는 Tensorflow 내부에서 Veriable로 선언하였지만 이번 목표는 외부, 즉 .csv 데이터 파일을 읽어와 x_data로 사용하는 것이다.
 
-##Slicing
+## Slicing
 .csv 데이터를 불러와 .csv 데이터중 일정부분만이 필요할 때가 있다. 이 때 Slicing 기능을 사용한다.
 
 ~~~
