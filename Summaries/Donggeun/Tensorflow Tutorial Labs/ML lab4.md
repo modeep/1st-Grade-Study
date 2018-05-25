@@ -131,7 +131,7 @@ print(nums[2:] )# prints "[2, 3, 4]"
 print(nums[:2]) # prints "[0, 1]"
 printnums[:]) # prints "[0, 1, 2, 3, 4]"
 print(nums[:-1]) # prints "[0, 1, 2, 3]"
-ums[2:4] = [8, 9] # 2~3 공간에 [8, 9]를 추가
+ums[2:4] = [8, 9] # 2~3 공간에 [8, 9]로 
 print(nums) # prints [0, 1, 8, 9, 4]
 ~~~
 
