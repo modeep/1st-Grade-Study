@@ -1,4 +1,4 @@
-# 2018/05/07 정리 : Lec4
+# 2018/05/24 정리 : Lec4
 ## multi-variable linear regression
 
 multi-variable linear regression : 여러개의 변수를 사용하는 linear regression
