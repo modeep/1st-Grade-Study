@@ -1,6 +1,6 @@
 ## Lab 5-1
 
-5-1-1
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-1-1.PNG?raw=true)
 
 Classification: 이전의 Regression이 숫자를 예측하는 것이었으면, 이것은 둘 중 하나를 구분하는 
 
@@ -12,7 +12,7 @@ Classification: 이전의 Regression이 숫자를 예측하는 것이었으면, 
 
 주식을 예측할 수도 있고, 호감적인 이미지인지 비호감적인 이미지인지 구분도 할 수 있다.
 
-5-1-2
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-1-2.PNG?raw=true)
 
 그러나 이런 상황에서는 문제가 발생할 수 있다.
 
@@ -20,7 +20,7 @@ Classification: 이전의 Regression이 숫자를 예측하는 것이었으면, 
 
 합격값 이하에서 합격의 결과가 나올 수 도 있는 것이다.
 
-5-1-3 
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-1-3.PNG?raw=true)
 
 이렇게 H(x) = Wx + b 같은 모양의 식으로 계산을 하면, 0에서 1 사이의 값이 아닌 
 
@@ -28,7 +28,7 @@ Classification: 이전의 Regression이 숫자를 예측하는 것이었으면, 
 
 그래서 사람들이 찾은 함수가 바로 g(z)이다.
 
-5-1-4
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-1-4.PNG?raw=true)
 
 이걸 logistic function, sigmoid function 이라고도 한다. 
 
@@ -36,27 +36,27 @@ Classification: 이전의 Regression이 숫자를 예측하는 것이었으면, 
 
 결국 우리의 Logistic Hypothesis는
 
-5-1-5
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-1-5.PNG?raw=true)
 
 이렇게 나온다.
 
 ## Lab 5-2
 
-5-2-1
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-2-1.PNG?raw=true)
 
 우리의 이전 cost 함수는 이런 형태였다.
 
-5-2-2
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-2-2.PNG?raw=true)
 
 그러나 이 새로운 cost 함수의 형태는 결과값의 심각한 오차를 발생시킬 수 있다.
 
 그래서 1와 0 일때, 두가지의 함수를 만든다.
 
-5-2-3
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-2-3.PNG?raw=true)
 
 e와 상극인 *log*를 사용했다.
 
-5-2-4
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-2-4.PNG?raw=true)
 
 y=1일때, 예측을 옳게 했으면 0에 가까운 값이므로 cost=0이 된다. 
 
@@ -64,11 +64,11 @@ y=1일때, 예측을 옳게 했으면 0에 가까운 값이므로 cost=0이 된�
 
 y=0일때도 예측과 실패했을때의 cost 값은 같다.
 
-5-2-5
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-2-5.PNG?raw=true)
 
 텐서플로우에서 코드를 직접 짜기엔 위의 식이 어렵기 때문에, 하나로 합쳤다.
 
-5-2-6
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-2-6.PNG?raw=true)
 
 여기서 a는 learning rate와 비슷한 작용을 한다.
 
