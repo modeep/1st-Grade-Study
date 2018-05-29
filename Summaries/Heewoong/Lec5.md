@@ -36,27 +36,27 @@ Classification: 이전의 Regression이 숫자를 예측하는 것이었으면, 
 
 결국 우리의 Logistic Hypothesis는
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-1-5.PNG?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec5-1-5.PNG?raw=true)
 
 이렇게 나온다.
 
 ## Lab 5-2
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-2-1.PNG?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec5-2-1.PNG?raw=true)
 
 우리의 이전 cost 함수는 이런 형태였다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-2-2.PNG?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec5-2-2.PNG?raw=true)
 
 그러나 이 새로운 cost 함수의 형태는 결과값의 심각한 오차를 발생시킬 수 있다.
 
 그래서 1와 0 일때, 두가지의 함수를 만든다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-2-3.PNG?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec5-2-3.PNG?raw=true)
 
 e와 상극인 *log*를 사용했다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-2-4.PNG?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec5-2-4.PNG?raw=true)
 
 y=1일때, 예측을 옳게 했으면 0에 가까운 값이므로 cost=0이 된다. 
 
@@ -64,11 +64,11 @@ y=1일때, 예측을 옳게 했으면 0에 가까운 값이므로 cost=0이 된�
 
 y=0일때도 예측과 실패했을때의 cost 값은 같다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-2-5.PNG?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec5-2-5.PNG?raw=true)
 
 텐서플로우에서 코드를 직접 짜기엔 위의 식이 어렵기 때문에, 하나로 합쳤다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/Lec5-2-6.PNG?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec5-2-6.PNG?raw=true)
 
 여기서 a는 learning rate와 비슷한 작용을 한다.
 
