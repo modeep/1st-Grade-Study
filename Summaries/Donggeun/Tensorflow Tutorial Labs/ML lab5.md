@@ -1,4 +1,5 @@
-# ML lab 05: TensorFlow로 Logistic Classification의 구현하기 (new)
+# ML lab 05
+## ML lab 05: TensorFlow로 Logistic Classification의 구현하기 (new)
 Logistic Regression에서는 ylog를 곱하여 Cost가 작으면 더 작게 크면 더 크게 만들어준다.
 
 ~~~
@@ -53,3 +54,12 @@ with tf.Session() as sess:
                       feed_dict={x:x_data, y:y_data})
   print("\nHypothesis: ", h, "\nCorrect (Y): ", c, "\nAccuracy: ", a)
 ~~~
+학습
+
+## ML lab 5-1 Logistic Classification의 가설 함수 정의
+
+Classification : 기존의 가장 근접한 값을 구하는 것과는 달리 둘중에 1개를 정해진 카테고리 안에서 구하는 것이다.
+페이스북에서 이용하는 기술로 여러가지의 타임라인 중에서 몇 가지만을 뽑아서 우리에게 보여준다.
+
+0과 1로 나타내기 때문에
+Span De
