@@ -62,4 +62,18 @@ Classification : 기존의 가장 근접한 값을 구하는 것과는 달리 �
 페이스북에서 이용하는 기술로 여러가지의 타임라인 중에서 몇 가지만을 뽑아서 우리에게 보여준다.
 
 0과 1로 나타내기 때문에
-Span De
+
+Span Detection: Spam or Ham
+Facebook feed:show or hide
+Credit Card Fraudulent Transaction detection: legitimate/fraud
+
+Linear Regression한 모델을 학습시키면 Y축은 0~1까지 있고 X축은 무한이 있게 된다. 학습된 모델의 선이 0부터 시작되어 1 끝에 만나게 될 것이다. 그래서 무한히 X축이 늘어난다고 해서 X가 5던 10이던 똑깥이 Y는 1이 된다는 것이다. 그리서 우리는 어느 정도부터가 1이 되고 어느정도 까지가 0으로 Y의 결과값이 나오는지를 구하는 것이 우리의 목표이다.
+
+H(x) = Wx + b의 결과 값이 0~1의 값으로 나와야 하기 때문에 H에 시그모이드 함수를 사용한다.
+
+
+## ML lec 5-2 Logistic Regression의 cost 함수 설명
+
+Logistic Regression의 cost function을 나타내면 U자로 울퉁불퉁하게 그려진다
+시작하는 점에 따라서 도착 지점이 달라지게 된다.
+중간에 걸리는 부분이 Local Miniminima, 최종적으로 도착해야하는 목표 점이 Global Mininima이다.
