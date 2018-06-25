@@ -26,3 +26,79 @@ x_std[:, 0] = (x[:, 0] - X[:, 0].mean()) / X[:, 0].std()
 ~~~
 l2reg = 0.001 * tf.reduce_sum(tf.square(W))
 ~~~
+
+</br>
+</br>
+
+# lec 07-2: Training/Testing 데이타 셋
+우리는 Training set을 가지고 학습을 시키는데 그 후에 Training set을 집어 넣어보면 이후의 값을 예측해서 출력할 것이다. 그러나 이것이 잘 됬다고 할 수 있는 것일까? 매우 나쁜 방법이다. 그래서 Training set에서 70%로는 학습을 시킬때 사용하고 나머지 30%는 학습이된 모델에 테스트를 해보는 용도로 사용해야 효율적으로 모델학습을 할 수 있다.
+또한 70%에서도 2가지 Training과 Validation으로 나누어 Training으로는 모델학습에 사용하고 Validation은 학습된 모델에 어떠한 값이 좋을지 튜닝을 하는 것이다. 모의 테스트를 해보는 것이라고 할 수 있다.
+
+</br>
+
+## Online learning
+100만개의 Training Data가 있다고 할 때 10만개씩 나눠서 학습을 시키는 방식을 말한다.
+Ex. MNIST
+
+</br>
+
+# ML lab 07-1: training/test dataset, learning rate, normalization
+이번 강의의 핵심은 Training Data를 2가지로 나누어 1가지는 직접적으로 모델을 학습할 때 사용하고 또 다른 하나는 모델 테스트를 할 때 사용한다. 테스트를 할 때에는 당연히 기존 데이터에서는 보지못한 데이터여야 할 것이다.
+
+</br>
+
+## Big or Small Learning
+learning_rate를 크게 할 경우에는 오버슈팅이 발생하고 어떤 경우에는 [nan]을 출력하는 사태가 발생하기도 한다. (학습 포기)
+반대로 매우 작게 설정을 하게 되면 Cost의 변경값이 너무 작아 학습을 반복되는 횟수를 늘릴 수 밖에 없게된다...
+
+</br>
+
+# ML lab 07-2: Meet MNIST Dataset
+
+28x28xI image
+가로, 세로 28개씩의 픽셀을 가진다. 총 784개의 픽셀이다.
+
+~~~
+X = tf.Placeholder(tf.float32, [None, 784])
+Y = tf.placeholder(tf.float32, [None, nb_classes])
+~~~
+
+픽셀 처리
+
+한꺼번에 메모리에 올리지 않고 100개씩 올린다.
+
+~~~
+from tensorflow.examples.tutorials.mnist import input_data
+mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+...
+batch_xs, batch_ys = mnist.train.next_batch(100)
+...
+print("Accuracy: ", accuracy.eval(session=sess,
+          feed_dict={X: mnist.test.images, Y: mnist.test.labels}))
+~~~
+
+Reading data and set variables
+
+우리는 class를 10개를 사용한다.
+그리고 각각의 placeholder와 Variable의 Shape을 정해준다.
+
+~~~
+from tensorflow.examples.tutorials.mnist import input_data
+mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+
+nb_classes = 10
+
+X = tf.placeholder(tf.float32, [None, 784])
+Y = tf.placeholder(tf.float32, [None, nb_classes])
+
+w = tf.Variable(tf.random_normal([784, nb_classes]))
+b = tf.Variable(tf.random_normal([nb_classes]))
+~~~
+
+</br>
+
+Softmax
+
+~~~
+
+~~~
