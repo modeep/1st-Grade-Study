@@ -97,8 +97,53 @@ b = tf.Variable(tf.random_normal([nb_classes]))
 
 </br>
 
-Softmax
+### Softmax
 
 ~~~
+hypothesis = tf.nn.softmax(tf.matmul(X, W) + b)
 
+# 축을 1로 설정하고 합을 구한다.
+cost = tf.reduce_mean(-tf.reduce_sum(Y * tf.log(hypothesis), axis=1))
+optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.1).minimize(cost)
+
+# print True or False
+is_correct = tf.equal(tf.arg_max(hypothesis, 1), tf.arg_max(Y, 1))
+accuracy = tf.reduce_mean(tf.cast(is_correct, tf.float32))
+~~~
+
+### Training epoch/batch
+
+batch: 한번에 몇개씩 학습을 시키는가
+epoch: 전체 데이터 셋을 몇번 학습을 시켰는지
+
+~~~
+# 전체 데이터 셋 15번 반복
+training_epochs = 15
+# 한번에 100개씩 학습
+batch_size = 100
+
+with tf.Session() as sess:
+    sess.run(tf.global_variables_initializer())
+    
+    for epoch in range(training_epochs):
+        avg_cost = 0
+        # 만약 전체 데이터 셋이 10000개이고 batch_size가 100이면 나누어 주면 한번 데이터 셋을 학습을 시킬 때 100개씩 batch를 100번 학습을 해                  야한다.
+        total_batch = int(mnist.train.num_examples / batch_size)
+        
+        # batch 반복
+        for i in range(total_batch):
+            batch_xs, batch_ys = mnist.train.next_batch(batch_size)
+            c, _ = sess.run([cost, optimizer], feed_dict={X: batch_xs, Y: batch_ys})
+            avg_cost += c / total_batch
+            
+        print('Epoch', '%04d' % (epoch + 1), 'cost =', '{:.9f}'.format(avg_cost))
+~~~
+
+### Report results on test dataset
+
+학습한 모델 테스트
+
+~~~
+print("Accuracy: ", accuracy.eval(session = sess,
+    feed_dict={X: mnist..test.images, Y: mnist.test.labels})) 
 ~~~
