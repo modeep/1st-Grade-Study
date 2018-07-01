@@ -1,6 +1,6 @@
 # Lec 7#
 
-##Gradient descent##
+##Gradient descent
 
 overshooting 은 learning rate 가 너무 커서, cost 함수의 값이 매우 커지게 되는 현상이다.
 
