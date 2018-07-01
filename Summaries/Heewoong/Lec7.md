@@ -12,17 +12,18 @@ overshooting 은 learning rate 가 너무 커서, cost 함수의 값이 매우 �
 
 등고선의 형태로 그래프를 나타낼수도 있는데,
 
-7-1-1
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-1-1.PNG?raw=true)
 
 이럴 경우에는 데이터의 중심을 0으로 옮기는 zero-centered 방식, 
 
 어떤 값이 항상 범위 안에 들어가도록 하는 normal-zed방식을 사용한다.
 
-7-1-2
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-1-2.PNG?raw=true)
+
 
 ##Standardization
 
-7-1-3
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-1-3.PNG?raw=true)
 
 일반화의 방식 중 하나이다.
 
@@ -40,7 +41,7 @@ overshooting 은 learning rate 가 너무 커서, cost 함수의 값이 매우 �
 
 ### Regularization###
 
-7-1-4
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-1-4.PNG?raw=true)
 
 loss에 값을 하나 더한다. 
 
@@ -54,7 +55,7 @@ loss에 값을 하나 더한다.
 
 우린 training set으로 학습을 시킨다. 그런데 학습 뒤 training set을 넣어 확인을 해보는 것은 좋지 않다.
 
-그래서 우린 training set의 70%를 training set으로, 나머지를 testing set으로 만든다.
+그래서 우린 training set의 일부를 training set으로, 나머지를 testing set으로 만든다.
 
 training set에서도 일부를 Validation로 만드는데, 이는 학습된 모델에 값을 조정하는 것이다.
 
