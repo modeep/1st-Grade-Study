@@ -1,6 +1,6 @@
 # Lec 6 06/28
 
-### Softmax classification: multinomial classification##
+### Softmax classification: multinomial classification
 
 A or not, B or not, C or not 세개의 함수로 이루어진다.
 
