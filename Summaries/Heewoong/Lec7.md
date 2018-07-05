@@ -8,13 +8,13 @@ overshooting 은 learning rate 가 너무 커서, cost 함수의 값이 매우 �
 
 이 rate가 더 크게 된다면,  그래프를 벗어나게 될 수도 있다.
 
-7-1-1
+!()[https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-1-1.PNG?raw=true]
 
 
 
 반면에 learning rate를 너무 작게 설정하면, 반복이 완료될때까지 원하는 cost에 도달하지 못할수도 있다.
 
-7-1-2
+!()[https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-1-2.PNG?raw=true]
 
 
 
@@ -24,13 +24,13 @@ overshooting 은 learning rate 가 너무 커서, cost 함수의 값이 매우 �
 
 Weight를 두개 준 뒤 위에서 바라본형태로 그래프를 나타낼수도 있다.
 
-7-1-3
+!()[https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-1-3.PNG?raw=true]
 
 
 
 그런데 x1과 x2데이터 사이에 차이가 크다면, 그래프는 한쪽으로 치우치게 된다.
 
-7-1-4
+!()[https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-1-4.PNG?raw=true]
 
 
 
@@ -38,13 +38,13 @@ Weight를 두개 준 뒤 위에서 바라본형태로 그래프를 나타낼수�
 
 어떤 값이 항상 범위 안에 들어가도록 하는 normal-zed방식을 사용한다.
 
-7-1-5
+!()[https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-1-5.PNG?raw=true]
 
 
 
 ## Standardization(표준화)
 
-lec7-1-6
+!()[https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-1-6.PNG?raw=true]
 
 일반화의 방식 중 하나이다.
 
@@ -60,7 +60,7 @@ lec7-1-6
 
 가지고 있는 데이터에만 정확한 결과를 내기 때문에, 실제 데이터에는 효과가 없게 된다.
 
-7-1-7
+!()[https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-1-7.PNG?raw=true]
 
 이렇게 -와 +가 섞여있는 경우에는, 둘 사이를 그어서 model2같은 모델을 만들 수도 있지만, 
 
@@ -78,7 +78,7 @@ model2같은 데이터를 바로 overfitting 이라고 한다.
 
 ### Regularization
 
-7-1-8
+!()[https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-1-8.PNG?raw=true]
 
 loss에 값을 하나 더한다. 
 
@@ -90,7 +90,7 @@ loss에 값을 하나 더한다.
 
 ### Training/Testing Data Set
 
-7-2-1
+!()[https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-2-1.PNG?raw=true]
 
 우린 training set으로 학습을 시킨다. 그런데 학습 뒤 training set을 넣어 확인을 해보는 것은 좋지 않다.
 
@@ -106,7 +106,7 @@ training set에서도 일부를 Validation로 만드는데, 이는 학습된 모
 
 ### MNIST dataset
 
-7-2-3
+!()[https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Heewoong/Images/lec7-2-3.PNG?raw=true]
 
 사람들이 적어놓은 숫자를 판별하게 하기 위한 데이터 셋이다.
 
