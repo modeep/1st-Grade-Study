@@ -31,7 +31,7 @@ Learning_rate를 작게 설정하면 매우 느리게 내려가서 우리가 횟
 
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab7/Image6.png?raw=true)
 
-우리가 계산한 평균과 분산을 값을 가지고 나눠주면 된다.
+우리가 계산한 평균과 분산 값을 가지고 나눠주면 된다.
 
 ## Overfitting
 
