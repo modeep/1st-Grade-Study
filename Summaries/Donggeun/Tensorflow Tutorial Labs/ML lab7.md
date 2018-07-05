@@ -109,7 +109,7 @@ print("Accuracy: ", sees.run(accuracy, feed_dict={x: x_test, y: y_test}))
 
 ## Big or Small Learning
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab7/Image14.png?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab7/Image13.png?raw=true)
 
 learning_rate를 크게 할 경우에는 오버슈팅이 발생하고 어떤 경우에는 [nan]을 출력하는 사태가 발생하기도 한다. (학습 포기)
 반대로 매우 작게 설정을 하게 되면 Cost의 변경값이 너무 작아 학습을 반복되는 횟수를 늘릴 수 밖에 없게된다...
@@ -122,7 +122,7 @@ xy = MinMaxScaler(xy)
 
 가장 작은 값이 0이 되고 가장 큰 값이 1이 된다.
 
-![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab7/Image15.png?raw=true)
+![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab7/Image14.png?raw=true)
 
 </br>
 
