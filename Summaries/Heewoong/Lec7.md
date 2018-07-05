@@ -1,6 +1,6 @@
-# Lec 7#
+# Lec 7
 
-##Gradient descent##
+## Gradient descent
 
 learning rate를 정하는 것은 매우 중요하다.
 
@@ -42,7 +42,7 @@ Weight를 두개 준 뒤 위에서 바라본형태로 그래프를 나타낼수�
 
 
 
-##Standardization(표준화)
+## Standardization(표준화)
 
 lec7-1-6
 
@@ -54,7 +54,7 @@ lec7-1-6
 
 
 
-## Over fitting(과학습)##
+## Over fitting(과학습)
 
 학습을 너무 많이 시키면, 학습 데이터에 딱 맞는 모델을 만들 수 있다.
 
@@ -76,7 +76,7 @@ model2같은 데이터를 바로 overfitting 이라고 한다.
 
 정규화(Regularization)를 시키는 것 역시 Overfitting의 해결책이 된다.
 
-### Regularization###
+### Regularization
 
 7-1-8
 
@@ -88,7 +88,7 @@ loss에 값을 하나 더한다.
 
 텐서플로우로는 간단히 구현 가능하다.
 
-### Training/Testing Data Set###
+### Training/Testing Data Set
 
 7-2-1
 
@@ -98,13 +98,13 @@ loss에 값을 하나 더한다.
 
 training set에서도 일부를 Validation로 만드는데, 이는 학습된 모델에 값을 조정하기 위한 것이다.
 
-### Online learning###
+### Online learning
 
 100만 가량의 데이터가 있을 때, 100만개의 데이터를 10만개씩 나누어 학습시키는데,
 
 처음 학습한 10만개가 그 뒤 학습할 10만개에 반영되게 한다는 방법이다.
 
-###MNIST dataset###
+### MNIST dataset
 
 7-2-3
 
