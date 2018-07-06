@@ -4,7 +4,7 @@
 
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab7/Image1.png?raw=true)
 
-그러나 Learning_rate의 값을 매우 크게 설정하면 오버슈팅(Overshoting)이 발생할 수 있다. 오버슈팅은 쉽게 말해서 Cost가 줄어들지 않고 값자기 증가하는 현상을 말한다.
+그러나 Learning_rate의 값을 매우 크게 설정하면 오버슈팅(Overshoting)이 발생할 수 있다. 오버슈팅은 쉽게 말해서 Cost가 줄어들지 않고 갑자기 증가하는 현상을 말한다.
 
 ![](https://github.com/MoDeep/1st-Grade-Study/blob/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab7/Image2.png?raw=true)
 
