@@ -23,3 +23,8 @@ Lecun 교수가 고양이를 대상으로 일정한 모양의 사진을 보여�
 ![](https://raw.githubusercontent.com/MoDeep/1st-Grade-Study/master/Summaries/Donggeun/Tensorflow%20Tutorial%20Labs/ML%20lab8%20Image/Image5.png)
 
 뉴럴 네트워크에서는 사진의 일부분 씩을 잘라서 신경망에 Input 하는 형식이었다.
+
+# lec 08-2: 딥러닝의 기본 개념2: Back-propagation 과 2006/2007 '딥'의 출현
+
+## CIFAR
+이
